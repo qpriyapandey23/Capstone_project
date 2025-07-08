@@ -1,4 +1,3 @@
-# Capstone_project
 # Smart Parking Price Management in Urban Areas
 
 ## Project Overview
@@ -42,7 +41,7 @@ The project follows an easy and organized structure:
 
 ```mermaid
 graph TD
-    A[dataset.csv] --> B[Google Colab Notebook]
+    A[parking_stream.csv] --> B[Google Colab Notebook]
     B --> C[Model 1: Simple Occupancy Pricing]
     B --> D[Model 2: Flexible Demand Pricing]
     B --> E[Model 3: Competitive Market Pricing]
@@ -56,12 +55,12 @@ graph TD
 ## Files Included in the Project
 
 * `Dynamic_Pricing_RealTime.ipynb`: Google Colab notebook containing the batch simulation and Bokeh visualizations.
-* `dataset.csv`: The main parking lot dataset used for this simulation, including parking usage, queue lengths, and traffic conditions.
+* `parking_stream.csv`: A refined dataset simulating streaming parking lot conditions, used in batch-mode.
+* `dataset.csv`: The original dataset with parking usage, queue lengths, and traffic details.
+* `dynamic_pricing_charts.pdf`: Exported version of Bokeh pricing visualizations for offline viewing or submission.
 * `README.md`: This file, providing a detailed explanation of the project design and working process.
 * `problem_statement.pdf`: The original problem description provided for this project.
-* `Dynamic_Pricing_Charts.pdf :This pdf contain bokeh visualisations.
-* `parking_stream.csv:Final CSV file containing the final processed data with
-calculated prices from all models
+
 ---
 
 ## Final Result
@@ -69,3 +68,4 @@ calculated prices from all models
 The project successfully shows how parking prices can be adjusted dynamically using easy-to-understand models and batch-based simulation. The final Bokeh plots allow us to see pricing patterns clearly and compare the effects of each pricing strategy.
 
 The project is fully designed to work inside Google Colab, making it accessible, fast, and easy to run without any need for complex system setups.
+
