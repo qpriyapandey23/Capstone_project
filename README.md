@@ -59,7 +59,9 @@ graph TD
 * `dataset.csv`: The main parking lot dataset used for this simulation, including parking usage, queue lengths, and traffic conditions.
 * `README.md`: This file, providing a detailed explanation of the project design and working process.
 * `problem_statement.pdf`: The original problem description provided for this project.
-
+* `Dynamic_Pricing_Charts.pdf :This pdf contain bokeh visualisations.
+* `parking_stream.csv:Final CSV file containing the final processed data with
+calculated prices from all models
 ---
 
 ## Final Result
